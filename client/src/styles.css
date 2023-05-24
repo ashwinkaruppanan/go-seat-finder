@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fcf7f8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+center{
+    margin-top:60px;
+}
+
+.tab-c {
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.tab-t {
+    background-color: #FDCEDF; 
+
+}
+
+.tab-f {
+    background-color: #F8E8EE;
+}
+
+.student-form table,td {
+    background-color: #F2BED1;
+}
+
+input {
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 250px;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.student-form {
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #F2BED1;
+}
+
+.stu-form-button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #FDCEDF;
+}
+
+.stu-form-button:hover {
+    border: none;
+    background-color: white;
+    
+}
+
+.td-padd {
+    padding: 10px;
+}
+
